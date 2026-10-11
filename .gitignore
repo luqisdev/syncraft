@@ -1,0 +1,34 @@
+# Dependencies
+node_modules
+.pnpm-store
+.npm-global
+
+# Build outputs
+dist
+build
+.cache
+.turbo
+
+# Test outputs & reports
+coverage
+playwright-report
+test-results
+blob-report
+
+# Environment variables & credentials
+.env
+.env.*
+!.env.example
+*.local
+.pgpass*
+
+# Database & local data
+.postgres-data
+*.log
+
+# Backups & system files
+*.bak
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

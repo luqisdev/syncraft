@@ -1,0 +1,26 @@
+{
+  "name": "syncraft",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Real-time collaborative document platform",
+  "scripts": {
+    "dev": "pnpm --parallel -r run dev",
+    "dev:server": "pnpm --filter @syncraft/server run dev",
+    "dev:web": "pnpm --filter @syncraft/web run dev",
+    "build": "pnpm -r run build",
+    "typecheck": "pnpm -r run typecheck",
+    "lint": "eslint apps/ packages/",
+    "test": "pnpm --filter @syncraft/server run test && pnpm --filter @syncraft/e2e run test",
+    "test:server": "pnpm --filter @syncraft/server run test",
+    "test:e2e": "pnpm --filter @syncraft/e2e run test"
+  },
+  "packageManager": "pnpm@12.10.1",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.71.1",
+    "@typescript-eslint/parser": "^8.71.1",
+    "eslint": "^10.12.0",
+    "typescript": "^5.8.2"
+  }
+}

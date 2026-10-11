@@ -1,0 +1,30 @@
+{
+  "name": "@syncraft/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/persistence.test.ts"
+  },
+  "dependencies": {
+    "@hocuspocus/server": "^2.13.5",
+    "bcryptjs": "^3.0.3",
+    "cookie": "^2.0.1",
+    "dotenv": "^16.4.7",
+    "pg": "^8.13.3",
+    "yjs": "^13.6.23"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^3.0.0",
+    "@types/cookie": "^1.0.0",
+    "@types/node": "^22.13.10",
+    "@types/pg": "^8.11.11",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
