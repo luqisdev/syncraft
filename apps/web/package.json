@@ -1,6 +1,7 @@
 {
   "name": "@syncraft/web",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "type": "module",
   "scripts": {
@@ -27,6 +28,7 @@
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
+    "rollup-plugin-license": "^3.7.1",
     "typescript": "^5.8.2",
     "vite": "^6.2.0"
   }

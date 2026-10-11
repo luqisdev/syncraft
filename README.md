@@ -202,3 +202,13 @@ pnpm --filter @syncraft/e2e exec playwright test tests/history.spec.ts --project
 - [Step-by-Step 3–5 Minute Demo Walkthrough](docs/demo.md)
 - [Project Summary & Architectural Case Study](docs/project-summary.md)
 - [Detailed System Architecture Specification](docs/architecture.md)
+- [Dependency & License Audit](docs/license-audit.md)
+
+---
+
+## License & Third-Party Notices
+
+Syncraft's original source code is released under the [MIT License](LICENSE).
+Copyright (c) 2026 luqisdev.
+
+Third-party libraries, icons, and dependencies retain their own respective copyrights and permissive open-source licenses (MIT, ISC, BSD-2-Clause, BSD-3-Clause, Apache-2.0). See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for full attribution and upstream license terms. Full third-party license texts for bundled web assets are additionally extracted during build to `dist/assets/vendor.LICENSE.txt`.
